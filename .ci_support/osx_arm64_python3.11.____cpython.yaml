@@ -1,0 +1,44 @@
+MACOSX_SDK_VERSION:
+- '11.0'
+aws_c_auth:
+- '1.0'
+aws_c_cal:
+- '1.0'
+aws_c_common:
+- '1.0'
+aws_c_event_stream:
+- '1.0'
+aws_c_http:
+- '1.0'
+aws_c_io:
+- '1.1'
+aws_c_mqtt:
+- '1.0'
+aws_c_s3:
+- '1.1'
+aws_checksums:
+- '1.0'
+c_compiler:
+- clang
+c_compiler_version:
+- '21'
+c_stdlib:
+- macosx_deployment_target
+c_stdlib_version:
+- '11.0'
+channel_sources:
+- conda-forge
+channel_targets:
+- conda-forge main
+macos_machine:
+- arm64-apple-darwin20.0.0
+pin_run_as_build:
+  python:
+    min_pin: x.x
+    max_pin: x.x
+python:
+- 3.11.* *_cpython
+s2n:
+- 1.7.7
+target_platform:
+- osx-arm64
